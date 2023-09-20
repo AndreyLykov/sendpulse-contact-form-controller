@@ -1,0 +1,9 @@
+<script src="https://code.jquery.com/jquery-3.6.0.min.js">
+$(document).ready(function() {
+$('#sendpulse-form-container').hide(); 
+	$('#toggle-form-button').click(function() { 
+	$('#sendpulse-form-container').toggle(); 
+	}); 
+}); 
+</script>
+
